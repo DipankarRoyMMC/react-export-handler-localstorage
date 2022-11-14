@@ -2,14 +2,13 @@
 const addToDb = (id) => {
     let shoppingCart;
 
-    // get shopping cart 
+    // get shopping cart from local storage
     const storedCart = localStorage.getItem('shopping-cart');
     if (storedCart) {
         shoppingCart = JSON.parse(storedCart);
     } else {
         shoppingCart = {};
     }
-
     // add quentity 
     const quentity = shoppingCart[id];
     if (quentity) {
@@ -21,7 +20,28 @@ const addToDb = (id) => {
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
 
 }
-export { addToDb };
+// Remove data from local storage 
+const removeDataFromDb = (id) => {
+    // first check shopping data in storage 
+    const storedCart = localStorage.getItem('shopping-cart');
+    if (storedCart) {
+        // for delete item convert to number by JSON.parse 
+        const shoppingCart = JSON.parse(storedCart);
+        if (id in shoppingCart) {
+            delete shoppingCart[id];
+            // now set item in local storage with json stringify 
+            localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
+
+        }
+    }
+
+}
+// delete all data from local storage 
+const deleteShoppingCart = () => {
+    localStorage.removeItem('shopping-cart');
+}
+
+export { addToDb, removeDataFromDb, deleteShoppingCart };
 
 
 // this is first code
