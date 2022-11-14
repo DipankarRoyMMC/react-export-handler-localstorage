@@ -1,0 +1,50 @@
+[
+    {
+      "id": "6371b3765ab5224cceba766a",
+      "name": "Dipankar Roy",
+      "gender": "male",
+      "company": "dipankarroymmc.com",
+      "email": "sd22dipankar@spacewax.com",
+      "phone": "+1 (812) 410-2718"
+    },
+    {
+      "id": "6371b376eebe5ff9b4dbcfd0",
+      "name": "Blair Atkinson",
+      "gender": "male",
+      "company": "BRAINCLIP",
+      "email": "blairatkinson@brainclip.com",
+      "phone": "+1 (885) 556-2579"
+    },
+    {
+      "id": "6371b376bc7805c03470e110",
+      "name": "Bridges Howell",
+      "gender": "male",
+      "company": "PLAYCE",
+      "email": "bridgeshowell@playce.com",
+      "phone": "+1 (802) 542-2253"
+    },
+    {
+      "id": "6371b3760153344fa407f3ea",
+      "name": "Stephens Williamson",
+      "gender": "male",
+      "company": "ZENTIA",
+      "email": "stephenswilliamson@zentia.com",
+      "phone": "+1 (949) 479-3822"
+    },
+    {
+      "id": "6371b3761ad30edda5a7ec24",
+      "name": "Janette Riggs",
+      "gender": "female",
+      "company": "HATOLOGY",
+      "email": "janetteriggs@hatology.com",
+      "phone": "+1 (837) 505-3096"
+    },
+    {
+      "id": "6371b37667ac1f3a5875d0bf",
+      "name": "Raquel Horn",
+      "gender": "female",
+      "company": "ENVIRE",
+      "email": "raquelhorn@envire.com",
+      "phone": "+1 (841) 413-2066"
+    }
+  ]
